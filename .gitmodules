@@ -37,3 +37,6 @@
 [submodule "vim/bundle/vim-matchit"]
 	path = vim/bundle/vim-matchit
 	url = https://github.com/tsaleh/vim-matchit.git
+[submodule "vim/bundle/QFDo"]
+	path = vim/bundle/QFDo
+	url = https://github.com/mdp/QFDo.git
