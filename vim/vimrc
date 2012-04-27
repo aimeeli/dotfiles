@@ -80,3 +80,7 @@ let g:NERDTreeChDirMode=2
 " Keyboard mappings
 map <Leader>n :NERDTree<CR>
 
+" Aliases for QFDo
+command! -nargs=+ QFdo call QFDo(<q-args>)
+command! -nargs=+ Qfdo call QFDo(<q-args>)
+
