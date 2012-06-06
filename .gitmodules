@@ -37,3 +37,6 @@
 [submodule "vim/bundle/QFDo"]
 	path = vim/bundle/QFDo
 	url = https://github.com/mdp/QFDo.git
+[submodule "vim/bundle/vim-puppet"]
+	path = vim/bundle/vim-puppet
+	url = https://github.com/rodjek/vim-puppet.git
