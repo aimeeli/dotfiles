@@ -78,3 +78,10 @@ export EC2_HOME="/usr/local/Cellar/ec2-api-tools/1.4.2.2/jars"
 
 # Ruby Version Machine
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
+
+# work computer stuff
+if [ -f ~/.bash_profile_work ]; then
+  echo "sourcing ~/.bash_profile_work"
+  . ~/.bash_profile_work
+fi
+
