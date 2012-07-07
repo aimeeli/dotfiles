@@ -13,8 +13,8 @@ so you know what each part does and avoid what you don't need.
     git clone git://github.com/chrisberkhout/dotfiles.git && cd dotfiles
     rake install
 
-The `rake install` will create a symlink from `~/.somedotfile` to
-`~/dotfiles/somedotfile`.
+The `rake install` will take each `~/dotfiles/specificdotfile` and create a
+symlink to it in your home directory (`~/.specificdotfile`).
     
 ## Copyright
 
