@@ -1,5 +1,7 @@
 require 'rake'
 
+# Derived from https://github.com/ryanb/dotfiles/blob/master/Rakefile
+
 desc "link home directory dot files into repo"
 task :install do
   system "git submodule init && git submodule update"
@@ -36,3 +38,4 @@ def link_file(file)
   puts "linking ~/.#{file}"
   system %Q{ln -s "$PWD/#{file}" "$HOME/.#{file}"}
 end
+
