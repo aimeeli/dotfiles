@@ -18,7 +18,7 @@ crashplan () {
 }
 
 # path
-export PATH="/usr/local/bin:$PATH:~/bin"
+export PATH="/usr/local/sbin:/usr/local/bin:$PATH:~/bin"
 alias op="open *.tmproj || mate ."
 
 # TextMate
