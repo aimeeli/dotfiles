@@ -17,8 +17,10 @@ crashplan () {
   ps auxww | grep -i CrashPlanService | grep ^root;
 }
 
-# path
+# path(s)
 export PATH="/usr/local/sbin:/usr/local/bin:$PATH:~/bin"
+export PYTHONPATH="/usr/local/lib/python2.7/site-packages"
+
 alias op="open *.tmproj || mate ."
 
 # TextMate
