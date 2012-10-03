@@ -68,7 +68,7 @@ export CLICOLOR=1
 # prompt
 function _update_ps1()
 {
-  export PS1="$(/usr/bin/env python ~/dotfiles/powerline-bash/powerline-bash.py $?)"
+  export PS1="$(/usr/bin/env POWERLINE_BASH_MODE=compatible python ~/dotfiles/powerline-bash/powerline-bash.py $?)"
 }
 export PROMPT_COMMAND="_update_ps1"
 
