@@ -66,11 +66,11 @@ fi
 export CLICOLOR=1
 
 # prompt
-color_yellow="\[\e[0;33m\]"
-color_green="\[\e[0;32m\]"
-color_red="\[\e[0;31m\]"
-color_foreground="\[\e[0m\]"
-export PS1="${color_yellow}\h${color_foreground}:${color_green}\W${color_red}\$(__git_ps1 '(%s)')${color_foreground}\\$ "
+function _update_ps1()
+{
+  export PS1="$(/usr/bin/env python ~/dotfiles/powerline-bash/powerline-bash.py $?)"
+}
+export PROMPT_COMMAND="_update_ps1"
 
 # EC2 API Tools (brew install ec2-api-tools)
 export JAVA_HOME="/System/Library/Frameworks/JavaVM.framework/Home"
