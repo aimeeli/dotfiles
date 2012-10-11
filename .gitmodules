@@ -43,3 +43,6 @@
 [submodule "powerline-bash"]
 	path = powerline-bash
 	url = git@github.com:chrisberkhout/powerline-bash.git
+[submodule "vim/bundle/vim-turbux"]
+	path = vim/bundle/vim-turbux
+	url = git://github.com/jgdavey/vim-turbux.git
