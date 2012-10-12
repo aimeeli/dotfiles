@@ -84,3 +84,13 @@ map <Leader>n :NERDTree<CR>
 command! -nargs=+ QFdo call QFDo(<q-args>)
 command! -nargs=+ Qfdo call QFDo(<q-args>)
 
+" tslime keybindings
+vmap <C-c><C-c> <Plug>SendSelectionToTmux
+nmap <C-c><C-c> <Plug>NormalModeSendToTmux
+nmap <C-c>r <Plug>SetTmuxVars
+
+" turbux settings
+let g:no_turbux_mappings=1
+map <leader>s <Plug>SendTestToTmux
+map <leader>S <Plug>SendFocusedTestToTmux
+
