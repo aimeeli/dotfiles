@@ -50,8 +50,8 @@ alias ga="git add"
 alias gc="git commit"
 alias gdv="git diff | view -"
 alias gdcv="git diff --cached | view -"
-alias ggpull="git pull --rebase origin master"
-alias ggpush="git push origin master"
+alias grb="git pull --rebase origin master"
+alias gup="git push origin master"
 
 # brew & ruby(gems?)
 export RUBYLIB="`brew --prefix`/lib:$RUBYLIB"
