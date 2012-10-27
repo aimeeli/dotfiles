@@ -49,3 +49,6 @@
 [submodule "vim/bundle/tslime.vim"]
 	path = vim/bundle/tslime.vim
 	url = git://github.com/jgdavey/tslime.vim.git
+[submodule "vim/bundle/vim-javascript"]
+	path = vim/bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
