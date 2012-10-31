@@ -23,6 +23,9 @@ set smartindent
 " Don't automatically insert linebreaks in long lines
 set wrap linebreak textwidth=0
 
+" When reloading with :checkt[ime], only get confirmation if there are unsaved changes
+set autoread
+
 " Don't automatically show long lines wrapped
 set nowrap
 
@@ -79,6 +82,7 @@ let g:NERDTreeChDirMode=2
 
 " Keyboard mappings
 map <Leader>n :NERDTree<CR>
+map <Leader>N :NERDTreeFind<CR>
 
 " Aliases for QFDo
 command! -nargs=+ QFdo call QFDo(<q-args>)
