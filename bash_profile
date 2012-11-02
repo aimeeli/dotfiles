@@ -70,7 +70,7 @@ export CLICOLOR=1
 # prompt
 function _update_ps1()
 {
-  export PS1="$(/usr/bin/env POWERLINE_BASH_MODE=compatible python ~/dotfiles/powerline-bash/powerline-bash.py $?)"
+  export PS1="$(/usr/bin/env POWERLINE_BASH_MODE=patched python ~/dotfiles/powerline-bash/powerline-bash.py $?)"
 }
 export PROMPT_COMMAND="_update_ps1"
 
@@ -82,10 +82,4 @@ export EC2_HOME="/usr/local/Cellar/ec2-api-tools/1.4.2.2/jars"
 
 # Ruby Version Machine
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
-
-# work computer stuff
-if [ -f ~/.bash_profile_work ]; then
-  echo "sourcing ~/.bash_profile_work"
-  . ~/.bash_profile_work
-fi
 

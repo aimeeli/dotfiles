@@ -72,6 +72,9 @@ au FocusLost * silent! wa   " FocusLost only works in GUI vim (and for CTRL-Z)
 " au WinLeave,TabLeave * silent! wa
 " set autowriteall   " on buffer switch
 
+" Powerline settings
+let g:Powerline_symbols='fancy'
+
 " Command-T settings
 let g:CommandTMatchWindowReverse=1
 let g:CommandTMaxHeight=15
