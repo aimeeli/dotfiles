@@ -18,8 +18,8 @@ crashplan () {
 }
 
 # path(s)
-export PATH="/usr/local/sbin:/usr/local/bin:$PATH:~/bin"
-export PYTHONPATH="/usr/local/lib/python2.7/site-packages"
+export PATH="/usr/local/sbin:/usr/local/bin:$PATH:~/bin:/opt/opengeo/sdk/bin"
+export PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYTHONPATH"
 
 alias op="open *.tmproj || mate ."
 
