@@ -23,6 +23,11 @@ crashplan () {
 export PATH="/usr/local/sbin:/usr/local/bin:$PATH:~/bin:/opt/opengeo/sdk/bin"
 export PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYTHONPATH"
 
+# sencha touch in path
+export PATH=/Users/chrisberkhout/bin/Sencha/Cmd/3.0.0.250:$PATH
+export SENCHA_CMD_3_0_0="/Users/chrisberkhout/bin/Sencha/Cmd/3.0.0.250"
+
+
 alias op="open *.tmproj || mate ."
 
 # TextMate
