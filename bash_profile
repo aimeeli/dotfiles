@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # crashplan
 crashplan () { 
   case "$1" in
