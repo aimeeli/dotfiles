@@ -81,7 +81,9 @@ let g:CommandTMaxHeight=15
 map <leader>t :CommandTFlush<cr>\|:CommandT<cr>
 
 " NERDTree settings
-let g:NERDTreeChDirMode=2
+let g:NERDTreeChDirMode=2     " cwd follows NERDTree root
+let NERDTreeMapOpenSplit='s'  " to match vim's C-w s
+let NERDTreeMapOpenVSplit='v' " to match vim's C-w v
 
 " Keyboard mappings
 map <Leader>n :NERDTree<CR>
