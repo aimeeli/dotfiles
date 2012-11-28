@@ -71,6 +71,9 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
   . `brew --prefix`/etc/bash_completion
 fi
 
+# run ansible from code
+source ~/Code/ansible/hacking/env-setup > /dev/null
+
 # color
 export CLICOLOR=1
 
