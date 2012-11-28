@@ -73,6 +73,7 @@ fi
 
 # run ansible from code
 source ~/Code/ansible/hacking/env-setup > /dev/null
+export ANSIBLE_HOSTS="./ansible_hosts"
 
 # color
 export CLICOLOR=1
