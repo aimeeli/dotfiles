@@ -2,7 +2,7 @@
 	name = Chris Berkhout
 	email = chrisberkhout@gmail.com
 [core]
-  # autocrlf = input
+  autocrlf = input
 [merge]
 	tool = vimdiff
 [color]
