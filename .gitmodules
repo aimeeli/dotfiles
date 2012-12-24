@@ -52,3 +52,6 @@
 [submodule "vim/bundle/vim-autoclose"]
 	path = vim/bundle/vim-autoclose
 	url = git://github.com/andrewle/vim-autoclose.git
+[submodule "powerline-bash"]
+	path = powerline-bash
+	url = git://github.com/milkbikis/powerline-bash.git
