@@ -1,5 +1,6 @@
-# Always sort the files
+# Options
 
+--smart-case
 --sort-files
 
 # Custom types
